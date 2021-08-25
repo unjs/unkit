@@ -1,0 +1,74 @@
+{
+  "name": "unkit",
+  "version": "0.0.0",
+  "description": "UnJS standard utils",
+  "repository": "unjs/unkit",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "./env": {
+      "import": "./dist/env.mjs",
+      "require": "./dist/env.cjs"
+    },
+    "./esm": {
+      "import": "./dist/esm.mjs",
+      "require": "./dist/esm.cjs"
+    },
+    "./fetch": {
+      "import": "./dist/fetch.mjs",
+      "require": "./dist/fetch.cjs"
+    },
+    "./http": {
+      "import": "./dist/http.mjs",
+      "require": "./dist/http.cjs"
+    },
+    "./object": {
+      "import": "./dist/object.mjs",
+      "require": "./dist/object.cjs"
+    },
+    "./promise": {
+      "import": "./dist/promise.mjs",
+      "require": "./dist/promise.cjs"
+    },
+    "./string": {
+      "import": "./dist/string.mjs",
+      "require": "./dist/string.cjs"
+    },
+    "./url": {
+      "import": "./dist/url.mjs",
+      "require": "./dist/url.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "siroc build",
+    "lint": "eslint --ext .ts .",
+    "prepublishOnly": "yarn build",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint "
+  },
+  "dependencies": {
+    "defu": "^5.0.0",
+    "destr": "^1.1.0",
+    "h3": "^0.3.0",
+    "is-https": "^4.0.0",
+    "items-promise": "^1.0.0",
+    "mlly": "^0.2.0",
+    "ohmyfetch": "^0.2.0",
+    "requrl": "^3.0.2",
+    "scule": "^0.2.1",
+    "siroc": "latest",
+    "std-env": "^2.3.0",
+    "ufo": "^0.7.9"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "eslint": "latest",
+    "siroc": "latest",
+    "standard-version": "latest",
+    "typescript": "latest"
+  }
+}
