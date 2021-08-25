@@ -26,7 +26,7 @@ const { pascalCase } = require('unkit/string')
 
 **💡 Note:** Please **always** explicitly install `unkit` dependency even if it is already installed by another package in `node_modules`.
 
-⬆️ Check [Upgrading Guide](#upgrading) for upgrading versions.
+⬆️ Check [Upgrading Guide](#%EF%B8%8F-upgrading) for upgrading versions.
 
 ## 📙 Libraries
 
