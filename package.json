@@ -1,7 +1,7 @@
 {
   "name": "unkit",
   "version": "0.0.1",
-  "description": "UnJS standard utils",
+  "description": "UnJS standard library",
   "repository": "unjs/unkit",
   "license": "MIT",
   "sideEffects": false,

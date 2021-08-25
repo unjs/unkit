@@ -1,8 +1,8 @@
 # unkit
 
-> UnJS standard utils
+> UnJS standard library
 
-✅ This package agreegates a collection of useful packages from [unjs](https://github.com/unjs) for ease of use.
+This package aggregates a collection of useful packages from [unjs](https://github.com/unjs) for ease of use.
 
 ## 💿 Install
 
@@ -26,7 +26,7 @@ const { pascalCase } = require('unkit/string')
 
 **💡 Note:** Please **always** explicitly install `unkit` dependency even if it is already installed by another package in `node_modules`.
 
-⬆️ Check [Upgrading Guide](#%EF%B8%8F-upgrading) for upgrading versions.
+Check [⬆️ Upgrading Guide](#%EF%B8%8F-upgrading) for upgrading versions.
 
 ## 📙 Libraries
 
@@ -70,7 +70,7 @@ import { createCommonJS, resolve } from 'unkit/esm'
 
 ### `/fetch`
 
-> A better fetch API. Works on node, browser and workers
+> A better fetch API. Works on node, browser, and workers
 
 👉 See [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch) for more information.
 
@@ -84,7 +84,7 @@ const { $fetch } = require('unkit/fetch')
 
 ### `/http`
 
-> Helpers for creating http servers
+> Helpers for creating HTTP servers
 
 👉 See [unjs/h3](https://github.com/unjs/h3) and [unjs/is-https](https://github.com/unjs/is-https) for more information.
 
@@ -155,10 +155,10 @@ const { joinURL, withQuery } = require('unkit/url')
 ## ⬆️ Upgrading
 
 Unkit uses npm dependencies with [caret range](https://nodesource.com/blog/semver-tilde-and-caret#caretflexibleminorandpatch),
- this mean when you freshly install `unkit`, latest features and fixes of sub-dependencies are installed. For upgrading we have two choices:
+ this means when you freshly install `unkit`, the latest features and fixes of sub-dependencies are installed. For upgrading we have two choices:
 
- - Use `npm up unkit` or `yarn upgrade unkit`: This will update lock-file with minimal risk to latest versions.
- - Remove `package-lock.json` or `yarn.lock` and reinstall dependencies with `npm i` or `yarn` this will update all nested dependencies to latest.
+ - Use `npm up unkit` or `yarn upgrade unkit`: This will update the lock-file with minimal risk to the latest versions.
+ - Remove `package-lock.json` or `yarn.lock` and reinstall dependencies with `npm i` or `yarn` this will update all nested dependencies to the latest.
 
 ## License
 
