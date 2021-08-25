@@ -2,9 +2,9 @@
 
 > UnJS standard utils
 
-This package reexports some useful libraries from [unjs](https://github.com/unjs) for ease of use.
+✅ This package agreegates a collection of useful packages from [unjs](https://github.com/unjs) for ease of use.
 
-## Install
+## 💿 Install
 
 Install using npm or yarn:
 
@@ -14,7 +14,7 @@ npm i unkit
 yarn add unkit
 ```
 
-Import:
+Import a subpath:
 
 ```js
 // ESM / Typescript
@@ -24,26 +24,24 @@ import { pascalCase  } from 'unkit/string'
 const { pascalCase } = require('unkit/string')
 ```
 
-**Note:** Please **always** explicitly install `unkit` dependency even if it is already installed by another package in `node_modules`.
+**💡 Note:** Please **always** explicitly install `unkit` dependency even if it is already installed by another package in `node_modules`.
 
-👉 See [Upgrading Guide](#upgrading) for upgrading
+⬆️ Check [Upgrading Guide](#upgrading) for upgrading versions.
 
-## Libraries
-
-### At a glance
+## 📙 Libraries
 
 Libraries are exposed via semantic subpaths. Refer to each package documentation for available utilities.
 
 Subpath | Packages
 --------|-------------
-`unkit/env`  | [unjs/std-env](https://github.com/unjs/std-env)
-`unkit/esm`  | [unjs/mlly](https://github.com/unjs/mlly)
-`unkit/fetch` | [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch)
-`unkit/http` | [unjs/h3](https://github.com/unjs/h3), [unjs/is-https](https://github.com/unjs/is-https)
-`unkit/object` | [unjs/defu](https://github.com/unjs/defu), [unjs/destr](https://github.com/unjs/destr)
-`unkit/promise` | [unjs/items-promise](https://github.com/unjs/items-promise)
-`unkit/string` | [unjs/scule](https://github.com/unjs/scule)
-`unkit/url` | [unjs/ufo](https://github.com/unjs/ufo)
+[`unkit/env`](#env)  | [unjs/std-env](https://github.com/unjs/std-env)
+[`unkit/esm`](#esm)   | [unjs/mlly](https://github.com/unjs/mlly)
+[`unkit/fetch`](#fetch)  | [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch)
+[`unkit/http`](#http)  | [unjs/h3](https://github.com/unjs/h3), [unjs/is-https](https://github.com/unjs/is-https)
+[`unkit/object`](#object)  | [unjs/defu](https://github.com/unjs/defu), [unjs/destr](https://github.com/unjs/destr)
+[`unkit/promise`](#promise)  | [unjs/items-promise](https://github.com/unjs/items-promise)
+[`unkit/string`](#string)  | [unjs/scule](https://github.com/unjs/scule)
+[`unkit/url`](#url)  | [unjs/ufo](https://github.com/unjs/ufo)
 
 ### `/env`
 
@@ -154,7 +152,7 @@ import { joinURL, withQuery } from 'unkit/url'
 const { joinURL, withQuery } = require('unkit/url')
 ```
 
-## Upgrading
+## ⬆️ Upgrading
 
 Unkit uses npm dependencies with [caret range](https://nodesource.com/blog/semver-tilde-and-caret#caretflexibleminorandpatch),
  this mean when you freshly install `unkit`, latest features and fixes of sub-dependencies are installed. For upgrading we have two choices:
