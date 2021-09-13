@@ -59,7 +59,7 @@ const { production, dev } = require('unkit/env')
 
 ### `/esm`
 
-> Missing ECMaScript module utils foir Node.js
+> Missing ECMaScript module utils for Node.js
 
 👉 See [unjs/mlly](https://github.com/unjs/mlly) for more information.
 
@@ -163,4 +163,3 @@ Unkit uses npm dependencies with [caret range](https://nodesource.com/blog/semve
 ## License
 
 [MIT](./LICENSE)
-
