@@ -51,7 +51,7 @@
     "test": "yarn lint "
   },
   "dependencies": {
-    "defu": "^5.0.1",
+    "defu": "^6.0.0",
     "destr": "^1.1.1",
     "h3": "^0.7.2",
     "is-https": "^4.0.0",
