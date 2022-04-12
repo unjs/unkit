@@ -1749,10 +1749,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
-h3@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/h3/-/h3-0.7.2.tgz#fa872c5cb3a573664861434532c5ee74f6f62efe"
-  integrity sha512-fupR1TmeWgT/90agQTJeMXBm0QdRwFcCY8iWzUkia6Km7eP2xlGAnx3XNJ3sTBp8++TfI0u8Lpj4GSL2hdUbtg==
+h3@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-0.7.3.tgz#e8222bb97a295a621fc7893fda05c47abf60b1c9"
+  integrity sha512-4Gz3vukxfZC53pMDfmzUI7mSb3HUqId6tmnrDGck9HuXQzG09tDWOOigfnIFODZrYmySaCUg7OnNnplrsoogKw==
   dependencies:
     cookie-es "^0.5.0"
     destr "^1.1.0"
