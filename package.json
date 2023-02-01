@@ -9,42 +9,50 @@
   "exports": {
     "./env": {
       "import": "./dist/env.mjs",
-      "require": "./dist/env.cjs"
+      "require": "./dist/env.cjs",
+      "types": "./dist/env.d.ts"
     },
     "./esm": {
       "import": "./dist/esm.mjs",
-      "require": "./dist/esm.cjs"
+      "require": "./dist/esm.cjs",
+      "types": "./dist/esm.d.ts"
     },
     "./fetch": {
       "import": "./dist/fetch.mjs",
-      "require": "./dist/fetch.cjs"
+      "require": "./dist/fetch.cjs",
+      "types": "./dist/fetch.d.ts"
     },
     "./http": {
       "import": "./dist/http.mjs",
-      "require": "./dist/http.cjs"
+      "require": "./dist/http.cjs",
+      "types": "./dist/http.d.ts"
     },
     "./object": {
       "import": "./dist/object.mjs",
-      "require": "./dist/object.cjs"
+      "require": "./dist/object.cjs",
+      "types": "./dist/object.d.ts"
     },
     "./promise": {
       "import": "./dist/promise.mjs",
-      "require": "./dist/promise.cjs"
+      "require": "./dist/promise.cjs",
+      "types": "./dist/promise.d.ts"
     },
     "./string": {
       "import": "./dist/string.mjs",
-      "require": "./dist/string.cjs"
+      "require": "./dist/string.cjs",
+      "types": "./dist/string.d.ts"
     },
     "./url": {
       "import": "./dist/url.mjs",
-      "require": "./dist/url.cjs"
+      "require": "./dist/url.cjs",
+      "types": "./dist/url.d.ts"
     }
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "siroc build",
+    "build": "unbuild",
     "lint": "eslint --ext .ts .",
     "prepublishOnly": "yarn build",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
@@ -60,15 +68,14 @@
     "ohmyfetch": "^0.4.21",
     "requrl": "^3.0.2",
     "scule": "^0.3.2",
-    "siroc": "latest",
     "std-env": "^3.3.1",
     "ufo": "^0.8.6"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
-    "siroc": "latest",
     "standard-version": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "unbuild": "^1.1.1"
   }
 }
