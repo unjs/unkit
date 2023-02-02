@@ -51,7 +51,7 @@ export default defineNuxtModule<ModuleOptions>({
             as: camelCase(`${options.prefix}-${
               name === 'default' ? libName : `${prefixLib ? libName : ''}-${name}`
             }`),
-            from: libName,
+            from: `unkit/${libName}`,
             ...importConfig
           })
         }

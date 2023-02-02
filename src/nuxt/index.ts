@@ -1,1 +1,1 @@
-export * from './module'
+export { default, ModuleOptions } from './module'

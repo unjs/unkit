@@ -57,6 +57,8 @@
   ],
   "scripts": {
     "build": "unbuild",
+    "dev:prepare": "unbuild --stub",
+    "play": "yarn dev:prepare && nuxi dev playground",
     "lint": "eslint --ext .ts .",
     "prepublishOnly": "yarn build",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
@@ -79,6 +81,7 @@
     "@nuxt/kit": "^3.1.1",
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
+    "nuxt": "^3.1.1",
     "standard-version": "latest",
     "typescript": "latest",
     "unbuild": "^1.1.1"
