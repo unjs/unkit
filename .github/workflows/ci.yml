@@ -19,5 +19,5 @@ jobs:
         with:
           node-version: '14'
           cache: yarn
-      - run: yarn install
-      - run: yarn lint
+      - run: pnpm i
+      - run: pnpm lint
