@@ -37,7 +37,7 @@ Subpath | Packages
 [`unkit/env`](#env)  | [unjs/std-env](https://github.com/unjs/std-env)
 [`unkit/esm`](#esm)   | [unjs/mlly](https://github.com/unjs/mlly)
 [`unkit/fetch`](#fetch)  | [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch)
-[`unkit/http`](#http)  | [unjs/h3](https://github.com/unjs/h3), [unjs/is-https](https://github.com/unjs/is-https)
+[`unkit/http`](#http)  | [unjs/h3](https://github.com/unjs/h3), [unjs/is-https](https://github.com/unjs/is-https), [unjs/requrl](https://github.com/unjs/requrl)
 [`unkit/object`](#object)  | [unjs/defu](https://github.com/unjs/defu), [unjs/destr](https://github.com/unjs/destr)
 [`unkit/promise`](#promise)  | [unjs/items-promise](https://github.com/unjs/items-promise)
 [`unkit/string`](#string)  | [unjs/scule](https://github.com/unjs/scule)
@@ -86,14 +86,14 @@ const { $fetch } = require('unkit/fetch')
 
 > Helpers for creating HTTP servers
 
-👉 See [unjs/h3](https://github.com/unjs/h3) and [unjs/is-https](https://github.com/unjs/is-https) for more information.
+👉 See [unjs/h3](https://github.com/unjs/h3), [unjs/is-https](https://github.com/unjs/is-https) and [unjs/requrl](https://github.com/unjs/requrl) for more information.
 
 ```js
 // ESM / Typescript
-import { useBody, isHTTPS } from 'unkit/http'
+import { useBody, isHTTPS, getURL } from 'unkit/http'
 
 // CommonJS
-const { useBody, isHTTPS } = require('unkit/http')
+const { useBody, isHTTPS, getURL } = require('unkit/http')
 ```
 
 ### `/object`
