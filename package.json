@@ -48,8 +48,9 @@
       "types": "./dist/url.d.ts"
     },
     "./nuxt": {
-      "import": "./dist/nuxt/index.mjs",
-      "require": "./dist/nuxt/index.cjs"
+      "import": "./dist/nuxt.mjs",
+      "require": "./dist/nuxt.cjs",
+      "types": "./dist/nuxt.d.ts"
     }
   },
   "files": [
@@ -65,6 +66,7 @@
     "test": "yarn lint "
   },
   "dependencies": {
+    "@nuxt/kit": "^3.4.3",
     "defu": "^6.1.1",
     "destr": "^1.2.2",
     "h3": "^0.8.6",
@@ -78,10 +80,9 @@
     "ufo": "^0.8.6"
   },
   "devDependencies": {
-    "@nuxt/kit": "^3.1.1",
+    "@nuxt/schema": "^3.4.3",
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
-    "nuxt": "^3.1.1",
     "standard-version": "latest",
     "typescript": "latest",
     "unbuild": "^1.1.1"
