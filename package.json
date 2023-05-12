@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.4.3",
-    "defu": "^6.1.1",
+    "defu": "^6.1.2",
     "destr": "^1.2.2",
     "h3": "^0.8.6",
     "is-https": "^4.0.0",
@@ -76,7 +76,7 @@
     "ohmyfetch": "^0.4.21",
     "requrl": "^3.0.2",
     "scule": "^0.3.2",
-    "std-env": "^3.3.1",
+    "std-env": "^3.3.3",
     "ufo": "^0.8.6"
   },
   "devDependencies": {
@@ -85,6 +85,6 @@
     "eslint": "latest",
     "standard-version": "latest",
     "typescript": "latest",
-    "unbuild": "^1.1.1"
+    "unbuild": "^1.2.1"
   }
 }
