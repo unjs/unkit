@@ -46,6 +46,11 @@
       "import": "./dist/url.mjs",
       "require": "./dist/url.cjs",
       "types": "./dist/url.d.ts"
+    },
+    "./nuxt": {
+      "import": "./dist/nuxt.mjs",
+      "require": "./dist/nuxt.cjs",
+      "types": "./dist/nuxt.d.ts"
     }
   },
   "files": [
@@ -53,12 +58,15 @@
   ],
   "scripts": {
     "build": "unbuild",
+    "dev:prepare": "unbuild --stub",
+    "play": "yarn dev:prepare && nuxi dev playground",
     "lint": "eslint --ext .ts .",
     "prepublishOnly": "yarn build",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test": "yarn lint "
   },
   "dependencies": {
+    "@nuxt/kit": "^3.4.3",
     "defu": "^6.1.2",
     "destr": "^1.2.2",
     "h3": "^0.8.6",
@@ -72,6 +80,7 @@
     "ufo": "^0.8.6"
   },
   "devDependencies": {
+    "@nuxt/schema": "^3.4.3",
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
     "standard-version": "latest",

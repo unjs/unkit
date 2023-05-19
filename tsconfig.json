@@ -7,5 +7,6 @@
     "outDir": "dist",
     "strict": true,
     "declaration": true,
+    "resolveJsonModule": true
   }
 }
