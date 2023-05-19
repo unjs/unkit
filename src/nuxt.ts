@@ -8,7 +8,7 @@ export interface ModuleOptions {
   /**
    * Prefix to be added before every package
    *
-   * @default `$`
+   * @default `$un`
    */
   prefix: string;
   /**
@@ -28,7 +28,7 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: 'unkit'
   },
   defaults: {
-    prefix: '$',
+    prefix: '$un',
     libraries: ['env', 'object', 'promise', 'string', 'url'] // Object.keys(pathExports)
   },
   setup (options, _nuxt) {

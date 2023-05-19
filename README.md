@@ -108,6 +108,14 @@ export default defineNuxtConfig({
 })
 ```
 
+```html
+<script setup>
+const val = $unstring.camelCase('foo-bar') // fooBar
+</script>
+
+<template>{{ val }}</template>
+```
+
 ### `/object`
 
 > Utilities for working with objects and serialization
