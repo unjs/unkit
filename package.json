@@ -65,7 +65,7 @@
     "is-https": "^4.0.0",
     "items-promise": "^1.0.0",
     "mlly": "^0.5.17",
-    "ohmyfetch": "^0.4.21",
+    "ofetch": "^1.3.3",
     "requrl": "^3.0.2",
     "scule": "^0.3.2",
     "std-env": "^3.7.0",
