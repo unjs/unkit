@@ -76,6 +76,6 @@
     "eslint": "latest",
     "standard-version": "latest",
     "typescript": "latest",
-    "unbuild": "^1.2.1"
+    "unbuild": "^2.0.0"
   }
 }
