@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "defu": "^6.1.4",
-    "destr": "^1.2.2",
+    "destr": "^2.0.3",
     "h3": "^0.8.6",
     "is-https": "^4.0.0",
     "items-promise": "^1.0.0",
