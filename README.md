@@ -36,7 +36,7 @@ Subpath | Packages
 --------|-------------
 [`unkit/env`](#env)  | [unjs/std-env](https://github.com/unjs/std-env)
 [`unkit/esm`](#esm)   | [unjs/mlly](https://github.com/unjs/mlly)
-[`unkit/fetch`](#fetch)  | [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch)
+[`unkit/fetch`](#fetch)  | [unjs/ofetch](https://github.com/unjs/ofetch)
 [`unkit/http`](#http)  | [unjs/h3](https://github.com/unjs/h3), [unjs/is-https](https://github.com/unjs/is-https)
 [`unkit/object`](#object)  | [unjs/defu](https://github.com/unjs/defu), [unjs/destr](https://github.com/unjs/destr)
 [`unkit/promise`](#promise)  | [unjs/items-promise](https://github.com/unjs/items-promise)
@@ -72,7 +72,7 @@ import { createCommonJS, resolve } from 'unkit/esm'
 
 > A better fetch API. Works on node, browser, and workers
 
-👉 See [unjs/ohmyfetch](https://github.com/unjs/ohmyfetch) for more information.
+👉 See [unjs/ofetch](https://github.com/unjs/ofetch) for more information.
 
 ```js
 // ESM / Typescript

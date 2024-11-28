@@ -1,1 +1,1 @@
-export * from 'ohmyfetch'
+export * from 'ofetch'
